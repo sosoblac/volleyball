@@ -1,0 +1,20 @@
+.allTeams{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.allTeamsText{
+    font-size: 15px;
+}
+
+.downIcon{
+    font-size: 14px;
+}

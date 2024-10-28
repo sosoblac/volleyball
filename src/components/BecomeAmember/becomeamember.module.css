@@ -1,0 +1,54 @@
+.becomeAmember{
+    height: 500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;align-items: center;
+    border: 1px solid green;
+    z-index: -100px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 50px;
+  text-align: center;
+  line-height:50px
+}
+
+.container p{
+    font-size: 22px;
+    color: white;
+    margin-top: 18px;
+}
+.signup{
+    padding: 20px 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-size: 18px;
+    height: 60px;
+    min-width: 160px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container .signup:hover{
+    background-color: rgb(39 39 39 / 1);
+    color: white;
+    border: 1px solid rgb(39 39 39 / 1);
+}

@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import { Inter , Oxanium} from "next/font/google";
 import "./globals.css";
+import Footer from "../components/Footer/page";
+import LayoutWrapper from "../components/LayoutWrapper/LayoutWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
+const oxanium = Oxanium({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={oxanium.className}>
+        <div style={{position:"relative"}}>
+          <LayoutWrapper>
+          {children}
+            </LayoutWrapper>
+          
+          <Footer/>
+        </div>
+        </body>
     </html>
   );
 }

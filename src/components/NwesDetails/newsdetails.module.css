@@ -1,0 +1,24 @@
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.dateSocials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news{
+    
+}
+
+.socials{
+    display: flex;
+    gap: 15px;
+}
+
+.newsDetails p{
+    padding: 100px;
+    
+}
+

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.schedule{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.scheduleTitle{
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    
+}
+
+.scheduleTitle p{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+
+.scheduleTitle p:first-child{
+    flex: 1.9;
+    
+}
+.scheduleTitle p:nth-child(2){
+    flex: 1;
+    padding-left: 30px;
+}
+.scheduleTitle p:nth-child(3){
+    flex: 1.2;
+}
